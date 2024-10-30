@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title" style="text-align: center; margin-top: 20px;">Welcome to Aslihan's Shop!</h1>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Find Your Product"/>
+        <button onclick="searchProduct()">Seach</button>
+    </div>
+    <div id="details-container" class="details-container">
+
+    </div>
+    <div class="main-container">
+        <div id="product-container" class="product-container">
+
+        </div>
+        <div id="cart-container" class="cart-container">
+            <h3>This is cart</h3>
+            <h4>Number of Items: <span id="count">0</span></h4>
+            <hr>
+            <div id="cart-main-container"></div>
+            <hr>
+            <h3>Total: <span id="total-price"></span> </h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
